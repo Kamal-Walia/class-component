@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Body extends React.Component {
+class Body extends React.PureComponent {
     constructor(){
         super();
         console.log('constructor')
